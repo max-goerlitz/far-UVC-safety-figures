@@ -19,12 +19,9 @@ Figure 1: ~~a) Far-UVC on the electromagnetic spectrum, adapted from (Blatchley 
 
 ![ACGIH, erythema and NMSC action spectra](./figure%20image%20files/acgih_erythema_nmsc_one_panel.png)
 
-
-![Protein absorption figure]()
-
-![Protein absorption figure](./figure%20image%20files/protein_absorption.png)
-
 ![Protein absorption](./figure%20image%20files/protein_absorption.png)
+
+![Protein and DNA absorption](./figure%20image%20files/protein_and_DNA_absorption.png)
 
 
 ## About renv:
