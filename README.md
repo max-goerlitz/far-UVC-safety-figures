@@ -13,16 +13,25 @@ We warmly welcome any feedback or questions. If you identify any mistakes or imp
 ## Figures and data sources
 ![Extraterrestrial and sea level solar radiation](./figure%20image%20files/combined_solarplot.svg)
 
-Figure 1: ~~a) Far-UVC on the electromagnetic spectrum, adapted from (Blatchley et al. 2022).~~ b) Solar radiation spectra for sea level (blue) and extraterrestrial conditions (orange) in the UV and Visible range. The sea level spectrum (blue) is derived from the ASTM G173-03 standard (NREL 2003), representing conditions on a sun-facing surface tilted at 37°, with an air mass of 1.5. The extraterrestrial spectrum (orange) comes from the ASTM E490-00a standard, which describes conditions outside of Earth's atmosphere (zero air mass) (NREL 2000). Data is sourced from the National Renewable Energy Laboratory (NREL).
+Figure 1: Solar radiation spectra for sea level (blue) and extraterrestrial conditions (orange) in the UV and Visible range. The sea level spectrum (blue) is derived from the ASTM G173-03 standard (NREL 2003), representing conditions on a sun-facing surface tilted at 37°, with an air mass of 1.5. The extraterrestrial spectrum (orange) comes from the ASTM E490-00a standard, which describes conditions outside of Earth's atmosphere (zero air mass) (NREL 2000). Data is sourced from the National Renewable Energy Laboratory (NREL).
 - The ASTM E-490 Reference is available [here](https://www.nrel.gov/grid/solar-resource/spectra-astm-e490.html).
 - The ASTM G-173 Reference is available [here](https://www.nrel.gov/grid/solar-resource/spectra-am1.5.html)
 
 ![ACGIH, erythema and NMSC action spectra](./figure%20image%20files/acgih_erythema_nmsc_one_panel.png)
 
+Figure 2: ACGIH 2022 UV hazard action spectrum for the eyes (black, solid) and skin (black, dot-dashed) (ACGIH 2022), international standardized erythema reference action spectrum (orange, dashed) (ISO/CIE 2019), and international standardized action spectrum for non-melanoma skin cancer (NMSC) (blue, dotted) (ISO/CIE 2016). The figure is adapted from an International Commission on Illumination (CIE) technical report and has been updated to reflect the revised ACGIH guidelines (CIE 2010).
+
 ![Protein absorption](./figure%20image%20files/protein_absorption.png)
 
-![Protein and DNA absorption](./figure%20image%20files/protein_and_DNA_absorption.png)
+Figure 3: Mean absorption coefficient and standard deviation for six proteins: bovine a-chymotrypsinogen, bovine immunoglobulin-c, horse hemoglobin, lysozyme, human immunoglobulin-c, and human serum albumin. Data is derived from Kreusch et al. (2003).
+- Protein absorption data is available here: https://github.com/lennijusten/protein-absorbance
 
+![Protein and DNA absorption](./figure%20image%20files/protein_and_DNA_absorption.png)
+- Protein absorption data is available here: https://github.com/lennijusten/protein-absorbance
+- DNA absorption data is available here: https://github.com/lennijusten/DNA-absorbance
+
+![Skin penetration](./figure%20image%20files/skin_penetration.png)
+Figure 4: Maximal observed depths of CPDs in reconstructed epidermal human skin equivalents for different doses of 222 nm, 233 nm, and UV-B. Data is derived from (Zwicker et al. 2022). The authors reported viable epidermal thickness as 37–50 µm, and mean stratum corneum thickness as 17 µm. Accordingly, these values were added to arrive at a representative total epidermal thickness of 54-67 µm in this figure. Human epidermal thickness varies greatly depending on body region, age, sex, and other factors (Lintzeri et al. 2022).
 
 ## About renv:
 
