@@ -5,6 +5,11 @@ In line with the principles of open science and open data, we are committed to t
 
 We warmly welcome any feedback or questions. If you identify any mistakes or improvements in our code or data, please do not hesitate to contact us. 
 
+# A guide to this repository:
+- "data" contains all the necessary data files (.xls or .csv) to create the plots
+- "figure scripts" contains the R code to create the plots
+- "figure image files" contains the plotted .png or .svg files
+
 ## About renv:
 
 renv is an R package that helps to make R projects more isolated, portable, and reproducible. It does this by creating an isolated, project-specific library for R packages, and by tracking the exact versions of packages that your project uses.
