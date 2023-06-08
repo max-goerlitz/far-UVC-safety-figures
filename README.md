@@ -11,7 +11,7 @@ We warmly welcome any feedback or questions. If you identify any mistakes or imp
 - "figure image files" contains the plotted .png or .svg files
 
 ## Figures and data sources
-![Description](./figure image files/protein_aborption.png)
+![Description](https://github.com/max-goerlitz/far-UVC-safety-figures/blob/main/figure%20image%20files/protein_absorption.png)
 
 
 ## About renv:
