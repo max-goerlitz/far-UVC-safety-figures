@@ -11,7 +11,7 @@ We warmly welcome any feedback or questions. If you identify any mistakes or imp
 - "figure image files" contains the plotted .png or .svg files
 
 ## Figures and data sources
-![test](figure image files/combined_solarplot.svg)
+![test](../figure image files/combined_solarplot.svg)
 
 
 ## About renv:
