@@ -37,5 +37,5 @@ penplot <- ggplot(data = mean_values, aes(x = `Wavelength and dose`, y = Mean)) 
 
 penplot
 
-ggsave(filename = "../figure image files/skin_pen_2.svg", plot = penplot, units = "mm", width = 140, height = 100, bg = "transparent") # FYI, for some reason I  wasn't able to make the background transparent when saving as a png. Instead, I saved as an svg and manually deleted the white background using Inkscape.
+ggsave(filename = "../figure image files/skin_penetration.svg", plot = penplot, units = "mm", width = 140, height = 100, bg = "transparent") # FYI, for some reason I  wasn't able to make the background transparent when saving as a png. Instead, I saved as an svg and manually deleted the white background using Inkscape.
 # After creating this initial plot, I further edited it using biorender.com
