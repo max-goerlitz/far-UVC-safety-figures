@@ -1,7 +1,7 @@
 library(tidyverse)
 
 # protein absorption data frame; data available from https://github.com/lennijusten/protein-absorbance ; See file "data-table.csv"
-pa <- read.csv("/Users/max.goerlitz/Dropbox/1 Projects/SecureBio/LWL safety/Figures/protein absorption by lenni/data-table.csv")
+pa <- read.csv("../data/protein-absorption-data-table.csv")
 
 str(pa) # check column names
 
@@ -20,4 +20,4 @@ plot <- ggplot(pa, aes(x = Wavelength, y = Mean.Absorption.Coefficient)) +
 
 plot
 
-ggsave("/Users/max.goerlitz/Documents/R Code/far-UVC-safety-figures/figure image files/protein_absorption.png", plot, unit = "mm", width = 100, height = 75, dpi = 600)
+ggsave("../figure image files/protein_absorption.png", plot, unit = "mm", width = 100, height = 75, dpi = 600)

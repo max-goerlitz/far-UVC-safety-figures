@@ -2,7 +2,7 @@ library(tidyverse)
 library(readxl)
 
 # maximal observed depth of CPDs in RHE skin models data frame; data is from Zwicker et al. 2022
-cpd <- read_xlsx("/Users/max.goerlitz/Dropbox/1 Projects/SecureBio/LWL safety/Figures/skin penetration/Maximal observed depth of CPDs in RHEs based on data from Zwicker et al. 2022.xlsx")
+cpd <- read_xlsx("../data/Maximal observed depth of CPDs in RHEs based on data from Zwicker et al. 2022.xlsx")
 
 str(cpd) # show structure of the data frame
 
@@ -37,5 +37,5 @@ penplot <- ggplot(data = mean_values, aes(x = `Wavelength and dose`, y = Mean)) 
 
 penplot
 
-ggsave(filename = "/Users/max.goerlitz/Documents/R Code/far-UVC-safety-figures/figure image files/skin_pen_2.svg", plot = penplot, units = "mm", width = 140, height = 100, bg = "transparent") # FYI, for some reason I  wasn't able to make the background transparent when saving as a png. Instead, I saved as an svg and manually deleted the white background using Inkscape.
+ggsave(filename = "../figure image files/skin_pen_2.svg", plot = penplot, units = "mm", width = 140, height = 100, bg = "transparent") # FYI, for some reason I  wasn't able to make the background transparent when saving as a png. Instead, I saved as an svg and manually deleted the white background using Inkscape.
 # After creating this initial plot, I further edited it using biorender.com

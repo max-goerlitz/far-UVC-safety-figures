@@ -5,7 +5,7 @@ library(cowplot)
 library(scales)
 
 # protein absorption data frame; data available from https://github.com/lennijusten/DNA-absorbance/ ; See file "data-table.csv"
-pa <- read.csv("/Users/max.goerlitz/Dropbox/1 Projects/SecureBio/LWL safety/Figures/protein absorption by lenni/data-table.csv")
+pa <- read.csv("../data/protein-absorption-data-table.csv")
 
 str(pa) # check column names
 
@@ -24,7 +24,7 @@ pa_plot <- ggplot(pa, aes(x = Wavelength, y = Mean.Absorption.Coefficient)) +
   )
 
 # DNA absorption data frame
-da <- read.csv("/Users/max.goerlitz/Dropbox/1 Projects/SecureBio/LWL safety/Figures/DNA-absorbance-master/data-table.csv")
+da <- read.csv("../data/dna-absorption-data-table.csv")
 
 str(da) # check column names
 
@@ -58,4 +58,4 @@ da_plot <- ggplot(da) +
 plot_grid(pa_plot, da_plot, ncol = 1, align = 'v')
 
 
-ggsave("/Users/max.goerlitz/Documents/R Code/far-UVC-safety-figures/figure image files/protein_and_dna_absorption.png", plot_grid(pa_plot, da_plot, ncol = 1, align = 'v'), width = 130, height = 150, unit = "mm", dpi = 600)
+ggsave("../figure image files/protein_and_dna_absorption.png", plot_grid(pa_plot, da_plot, ncol = 1, align = 'v'), width = 130, height = 150, unit = "mm", dpi = 600)

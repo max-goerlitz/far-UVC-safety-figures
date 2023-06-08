@@ -4,14 +4,14 @@ library(gridExtra)
 library(scales)
 
 # loading data frames for ACGIH UV action spectra
-acgih <- read_xlsx("/Users/max.goerlitz/Dropbox/1 Projects/SecureBio/LWL safety/Figures/action_spectra_and_tlv_data.xlsx", sheet = "TLV")
-acgih_skin <- read_xlsx("/Users/max.goerlitz/Dropbox/1 Projects/SecureBio/LWL safety/Figures/action_spectra_and_tlv_data.xlsx", sheet = "TLV_skin")
+acgih <- read_xlsx("../data/action_spectra_and_tlv_data.xlsx", sheet = "TLV")
+acgih_skin <- read_xlsx("../data/action_spectra_and_tlv_data.xlsx", sheet = "TLV_skin")
 
 # Load data into data frame erythema
-erythema <- read_xlsx("/Users/max.goerlitz/Dropbox/1 Projects/SecureBio/LWL safety/Figures/action_spectra_and_TLV_data.xlsx", sheet = "action_spectra")
+erythema <- read_xlsx("../data/action_spectra_and_TLV_data.xlsx", sheet = "action_spectra")
 
 # Load data into data frame nmsc
-nmsc <- read_xlsx("/Users/max.goerlitz/Dropbox/1 Projects/SecureBio/LWL safety/Figures/action_spectra_and_TLV_data.xlsx", sheet = "action_spectra")
+nmsc <- read_xlsx("../data/action_spectra_and_TLV_data.xlsx", sheet = "action_spectra")
 
 # renaming columns to make them easier to handle
 acgih <- acgih %>%
@@ -66,4 +66,4 @@ combined_plot <- ggplot() +
 
 combined_plot
 
-ggsave("/Users/max.goerlitz/Documents/R Code/far-UVC-safety-figures/figure image files/acgih_erythema_nmsc_one_panel.png", combined_plot, width = 120, height = 75, unit = "mm", dpi = 600)
+ggsave("../figure image files/acgih_erythema_nmsc_one_panel.png", combined_plot, width = 120, height = 75, unit = "mm", dpi = 600)
