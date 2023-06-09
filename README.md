@@ -9,6 +9,7 @@ We warmly welcome any feedback or questions. If you identify any mistakes or imp
 - "data" contains all the necessary data files (.xls or .csv) to create the plots
 - "figure scripts" contains the R code to create the plots
 - "figure image files" contains the plotted .png or .svg files
+- "figures edited in biorender" contains image files that were Created with BioRender.com
 
 ## Figures and data sources
 ![Extraterrestrial and sea level solar radiation](./figure%20image%20files/combined_solarplot.svg)
