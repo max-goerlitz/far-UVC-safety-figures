@@ -36,10 +36,14 @@ Figure S2: a) Mean absorption coefficient and standard deviation for six protein
 - Protein absorption data is available here: https://github.com/lennijusten/protein-absorbance
 - DNA absorption data is available here: https://github.com/lennijusten/DNA-absorbance
 
-![Skin penetration](./figure%20image%20files/skin_penetration.svg)
+![Skin penetration](./figures edited in biorender/skin_penetration_edited_in_biorender.png)
 
 Figure 4: Maximal observed depths of CPDs in reconstructed epidermal human skin equivalents for different doses of 222 nm, 233 nm, and UV-B. Data is derived from (Zwicker et al. 2022). The authors reported viable epidermal thickness as 37–50 µm, and mean stratum corneum thickness as 17 µm. Accordingly, these values were added to arrive at a representative total epidermal thickness of 54-67 µm in this figure. Human epidermal thickness varies greatly depending on body region, age, sex, and other factors (Lintzeri et al. 2022).
 - The Zwicker et al. 2022 publication is available [here](https://doi.org/10.1038/s41598-022-06397-z). 
+
+![Combined eye figure](./figures edited in biorender/combined_eye_figure_created_with_biorender.png)
+
+Figure 5: Ocular anatomy, a) frontal, b) lateral, c) enlarged view of corneal anatomy, and d) tear film structure.
 
 ## About renv:
 
