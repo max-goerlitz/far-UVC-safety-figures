@@ -30,12 +30,6 @@ Figure 2: ACGIH 2022 UV hazard action spectrum for the eyes (black, solid) and s
 Figure 3: Mean absorption coefficient and standard deviation for six proteins: bovine a-chymotrypsinogen, bovine immunoglobulin-c, horse hemoglobin, lysozyme, human immunoglobulin-c, and human serum albumin. Data is derived from Kreusch et al. (2003).
 - Protein absorption data is available here: https://github.com/lennijusten/protein-absorbance
 
-![Protein and DNA absorption](./figure%20image%20files/protein_and_dna_absorption.png)
-
-Figure S2: a) Mean absorption coefficient and standard deviation for six proteins: bovine a-chymotrypsinogen, bovine immunoglobulin-c, horse hemoglobin, lysozyme, human immunoglobulin-c, and human serum albumin. Data is derived from Kreusch et al. (2003). b) UV absorption coefficients of the four primary nucleobases in DNA: adenine (A) (black, solid) cytosine (C) (blue, dotted), guanine (G) (yellow, dashed), and thymine (T) (orange, dot-dashed). Data is derived from Kowalski (2009, 26).
-- Protein absorption data is available here: https://github.com/lennijusten/protein-absorbance
-- DNA absorption data is available here: https://github.com/lennijusten/DNA-absorbance
-
 ![Skin penetration](./figures%20edited%20in%20biorender%20or%20inkscape/skin_penetration_edited_in_biorender.png)
 
 Figure 4: Maximal observed depths of CPDs in reconstructed epidermal human skin equivalents for different doses of 222 nm, 233 nm, and UV-B. Data is derived from (Zwicker et al. 2022). The authors reported viable epidermal thickness as 37–50 µm, and mean stratum corneum thickness as 17 µm. Accordingly, these values were added to arrive at a representative total epidermal thickness of 54-67 µm in this figure. Human epidermal thickness varies greatly depending on body region, age, sex, and other factors (Lintzeri et al. 2022).
@@ -46,6 +40,20 @@ Figure 4: Maximal observed depths of CPDs in reconstructed epidermal human skin 
 
 Figure 5: Ocular anatomy, a) frontal, b) lateral, c) enlarged view of corneal anatomy, and d) tear film structure.
 - The figure can be copied and modified using BioRender.com [here](https://app.biorender.com/illustrations/646ba149e8bd00ff10f9580f).
+
+![ACGIH, erythema and NMSC action spectra in four panels](./figure%20image%20files/ACGIH_erythema_nmsc_four_panels.png)
+
+Figure S1: a) ACGIH 2022 UV hazard action spectrum for the eyes and skin (ACGIH 2022), b) International standardized erythema reference action spectrum (ISO/CIE 2019), c) International standardized action spectrum for non-melanoma skin cancer (NMSC) (ISO/CIE 2016) on a semi-logarithmic scale, and the same on a d) linear scale.
+- The ACGIH TLV and BEI Documentation can be bought [here](https://portal.acgih.org/s/store#/store/browse/detail/a154W00000DqsbCQAR).
+- The ISO/CIE 17166:2019 Erythema reference action spectrum and standard erythema dose Documentation can be bought [here](https://www.iso.org/standard/74167.html).
+- The ISO/CIE 28077:2016 Photocarcinogenesis action spectrum (non-melanoma skin cancers) Documentation can be bought [here](https://www.iso.org/standard/69651.html).
+
+![Protein and DNA absorption](./figure%20image%20files/protein_and_dna_absorption.png)
+
+Figure S2: a) Mean absorption coefficient and standard deviation for six proteins: bovine a-chymotrypsinogen, bovine immunoglobulin-c, horse hemoglobin, lysozyme, human immunoglobulin-c, and human serum albumin. Data is derived from Kreusch et al. (2003). b) UV absorption coefficients of the four primary nucleobases in DNA: adenine (A) (black, solid) cytosine (C) (blue, dotted), guanine (G) (yellow, dashed), and thymine (T) (orange, dot-dashed). Data is derived from Kowalski (2009, 26).
+- Protein absorption data is available here: https://github.com/lennijusten/protein-absorbance
+- DNA absorption data is available here: https://github.com/lennijusten/DNA-absorbance
+
 
 ## About renv:
 
