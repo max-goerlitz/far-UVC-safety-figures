@@ -30,10 +30,9 @@ Figure 2: ACGIH 2022 UV hazard action spectrum for the eyes (black, solid) and s
 Figure 3: Mean absorption coefficient and standard deviation for six proteins: bovine a-chymotrypsinogen, bovine immunoglobulin-c, horse hemoglobin, lysozyme, human immunoglobulin-c, and human serum albumin. Data is derived from Kreusch et al. (2003).
 - Protein absorption data is available here: https://github.com/lennijusten/protein-absorbance
 
-![Skin penetration](./figures%20edited%20in%20biorender%20or%20inkscape/skin_penetration_edited_in_biorender.png)
+![Skin penetration](./figures%20edited%20in%20biorender%20or%20inkscape/skin_penetration_based_on_Guttmann_data_edited_in_biorender.png)
 
-Figure 4: Maximal observed depths of CPDs in reconstructed epidermal human skin equivalents for different doses of 222 nm, 233 nm, and UV-B. Data is derived from (Zwicker et al. 2022). The authors reported viable epidermal thickness as 37–50 µm, and mean stratum corneum thickness as 17 µm. Accordingly, these values were added to arrive at a representative total epidermal thickness of 54-67 µm in this figure. Human epidermal thickness varies greatly depending on body region, age, sex, and other factors (Lintzeri et al. 2022).
-- The Zwicker et al. 2022 publication is available [here](https://doi.org/10.1038/s41598-022-06397-z). 
+Figure 4: >>>>need to write new caption<<<<< Stratum corneum thickness was modeled at 16 µm and viable epidermal thickness at 65 µm, for a total epidermal thickness of 81 µm. Human epidermal thickness varies greatly depending on body region, age, sex, and other factors (Lintzeri et al. 2022).
 - The figure can be copied and modified using BioRender.com [here](https://app.biorender.com/illustrations/6480d1f6178cc2e8db860842).
 
 ![Combined eye figure](./figures%20edited%20in%20biorender%20or%20inkscape/combined_eye_figure_created_with_biorender.png)
