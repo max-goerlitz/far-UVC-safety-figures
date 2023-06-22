@@ -92,14 +92,14 @@
        y1="52.94"
        x2="391.37"
        y2="52.94"
-       style="stroke-width: 1.07; stroke: #F2F2F2; stroke-opacity: 0.20; stroke-dasharray: 1.42,4.27; stroke-linecap: butt;"
+       style="stroke-width: 1.07; stroke: #FCFCFC; stroke-opacity: 0.30; stroke-dasharray: 1.42,4.27; stroke-linecap: butt;"
        id="line28" />
     <line
        x1="52.94"
        y1="199.85"
        x2="391.37"
        y2="199.85"
-       style="stroke-width: 1.07; stroke: #F2F2F2; stroke-opacity: 0.20; stroke-dasharray: 1.42,4.27; stroke-linecap: butt;"
+       style="stroke-width: 1.07; stroke: #FCFCFC; stroke-opacity: 0.30; stroke-dasharray: 1.42,4.27; stroke-linecap: butt;"
        id="line30" />
   </g>
   <g
@@ -333,43 +333,43 @@
        lengthAdjust="spacingAndGlyphs"
        id="text108">Depth [µm]</text>
     <rect
-       x="65.73"
-       y="175.31"
-       width="109.79"
-       height="40.04"
+       x="64.23"
+       y="184.68"
+       width="112.78"
+       height="45.02"
        style="stroke-width: 2.13;"
        id="rect110" />
     <rect
-       x="65.73"
-       y="175.31"
-       width="109.79"
-       height="40.04"
+       x="64.23"
+       y="184.68"
+       width="112.78"
+       height="45.02"
        style="stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;"
        id="rect112" />
     <line
-       x1="67.46"
-       y1="189.42"
-       x2="81.28"
-       y2="189.42"
+       x1="65.96"
+       y1="198.80"
+       x2="79.79"
+       y2="198.80"
        style="stroke-width: 1.49; stroke-dasharray: 1.99,5.98,7.97,5.98; stroke-linecap: butt;"
        id="line114" />
     <line
-       x1="67.46"
-       y1="206.70"
-       x2="81.28"
-       y2="206.70"
+       x1="65.96"
+       y1="216.08"
+       x2="79.79"
+       y2="216.08"
        style="stroke-width: 1.49; stroke-linecap: butt;"
        id="line116" />
     <text
-       x="88.49"
-       y="192.58"
+       x="86.99"
+       y="201.95"
        style="font-size: 8.80px; font-family: &quot;Arial&quot;;"
        textLength="87.03px"
        lengthAdjust="spacingAndGlyphs"
        id="text118">50% Relative Intensity</text>
     <text
-       x="88.49"
-       y="209.86"
+       x="86.99"
+       y="219.23"
        style="font-size: 8.80px; font-family: &quot;Arial&quot;;"
        textLength="87.03px"
        lengthAdjust="spacingAndGlyphs"
