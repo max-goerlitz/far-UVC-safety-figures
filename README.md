@@ -32,8 +32,8 @@ Figure 3: Mean absorption coefficient and standard deviation for six proteins: b
 
 ![Skin penetration](./figures%20edited%20in%20biorender%20or%20inkscape/skin_penetration_based_on_Guttmann_data_edited_in_biorender.png)
 
-Figure 4: >>>>need to write new caption<<<<< Stratum corneum thickness was modeled at 16 µm and viable epidermal thickness at 65 µm, for a total epidermal thickness of 81 µm. Human epidermal thickness varies greatly depending on body region, age, sex, and other factors (Lintzeri et al. 2022).
-- The figure can be copied and modified using BioRender.com [here](https://app.biorender.com/illustrations/6480d1f6178cc2e8db860842).
+Figure 4: >>>>NEED TO WRITE NEW CAPTION<<<<< Stratum corneum thickness was modeled at 16 µm and viable epidermal thickness at 65 µm, for a total epidermal thickness of 81 µm. Human epidermal thickness varies greatly depending on body region, age, sex, and other factors (Lintzeri et al. 2022).
+- The figure can be copied and modified using BioRender.com [here](https://app.biorender.com/illustrations/6480d1f6178cc2e8db860842). >>>>>UPDATE LINK<<<<<<
 
 ![Combined eye figure](./figures%20edited%20in%20biorender%20or%20inkscape/combined_eye_figure_created_with_biorender.png)
 
