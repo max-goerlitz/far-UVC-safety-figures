@@ -57,5 +57,5 @@ skin_t_plot <- ggplot(long_data, aes(x = wavel, y = depth, linetype = intensity)
 
 skin_t_plot
 
-ggsave(filename = "../figure image files/skin_transmission_based_on_Guttmann_data.svg", plot = skin_t_plot, units = "mm", width = 140, height = 100, bg = "transparent") # FYI, for some reason I  wasn't able to make the background transparent when saving as a png. Instead, I saved as an svg and manually deleted the white background using Inkscape.
+ggsave(filename = "../figure image files/skin_penetration_based_on_Guttmann_data.svg", plot = skin_t_plot, units = "mm", width = 140, height = 100, bg = "transparent") # FYI, for some reason I  wasn't able to make the background transparent when saving as a png. Instead, I saved as an svg and manually deleted the white background using Inkscape.
 # After creating this initial plot, I further edited it using biorender.com
