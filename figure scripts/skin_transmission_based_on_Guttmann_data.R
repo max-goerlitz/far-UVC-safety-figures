@@ -33,13 +33,13 @@ str(long_data)
 
 # Create the line plot
 skin_t_plot <- ggplot(long_data, aes(x = wavel, y = depth, linetype = intensity)) +
-  geom_line() +
+  geom_line(linewidth = 0.7) +
   scale_x_continuous(limits = c(200, 300), breaks = seq(200, 300, by = 20), expand = c(0, 1)) +
   scale_y_reverse(limits = c(100, -5), breaks = seq(0,100, by = 10), expand = c(0, 0)) +
   geom_hline(yintercept = c(16, 81), linetype = "dotted", color = "grey95", alpha = 0.2) + # Add dotted horizontal lines (for the sake of accurately creating the figure in biorender)
-  scale_linetype_manual(values = c("depth_50" = "dashed", "depth_10" = "solid"),
-                        name = "",
-                        labels = c("50% Relative Intensity", "10% Relative Intensity")) +
+  scale_linetype_manual(values = c("depth_50" = "dotdash", "depth_10" = "solid"),
+                        labels = c("50% Relative Intensity", "10% Relative Intensity"),
+                        breaks = c("depth_50", "depth_10")) +
   labs(x = "Wavelength [nm]", 
        y = "Depth [µm]") +
   theme_classic() +
@@ -50,7 +50,10 @@ skin_t_plot <- ggplot(long_data, aes(x = wavel, y = depth, linetype = intensity)
         legend.position = c(0.2, 0.2), 
         legend.title = element_blank(),
         legend.background = element_rect(colour = "white"),
-        legend.box.background = element_rect(colour = "black"))
+        legend.box.background = element_rect(colour = "black", size = 1),
+        legend.margin = margin(0,0,0,0),
+        legend.box.margin = margin(0,0,0,0)
+        )
 
 skin_t_plot
 
