@@ -14,6 +14,7 @@ We warmly welcome any feedback or questions. If you identify any mistakes or imp
 ## Figures and data sources
 ![Electromagnetic spectrum with Extraterrestrial and sea level solar radiation](./figures%20edited%20in%20biorender%20or%20inkscape/combined_EM_spectrum_and_solar_radiation.svg)
 
+
 Figure 1: a) Far-UVC on the electromagnetic spectrum, adapted from (Blatchley et al. 2022). b) Solar radiation spectra for sea level (blue) and extraterrestrial conditions (orange) in the UV and Visible range. The sea level spectrum (blue) is derived from the ASTM G173-03 standard (NREL 2003), representing conditions on a sun-facing surface tilted at 37°, with an air mass of 1.5. The extraterrestrial spectrum (orange) comes from the ASTM E490-00a standard, which describes conditions outside of Earth's atmosphere (zero air mass) (NREL 2000). Data is sourced from the National Renewable Energy Laboratory (NREL).
 - The ASTM E-490 Reference is available [here](https://www.nrel.gov/grid/solar-resource/spectra-astm-e490.html).
 - The ASTM G-173 Reference is available [here](https://www.nrel.gov/grid/solar-resource/spectra-am1.5.html)
