@@ -32,10 +32,10 @@ Figure 2: ACGIH 2022 UV hazard action spectrum for the eyes (black, solid) and s
 Figure 3: Mean absorption coefficient and standard deviation for six proteins: bovine a-chymotrypsinogen, bovine immunoglobulin-c, horse hemoglobin, lysozyme, human immunoglobulin-c, and human serum albumin. Data is derived from Kreusch et al. (2003).
 - Protein absorption data is available here: https://github.com/lennijusten/protein-absorbance
 
-![Skin penetration](./figures%20edited%20in%20biorender%20or%20inkscape/skin_penetration_based_on_Guttmann_data_edited_in_biorender.png)
+![Skin penetration](./figures%20edited%20in%20biorender%20or%20inkscape/skin_penetration_based_on_Guttmann_data_edited_in_biorender_v2.png)
 
-Figure 4: >>>>NEED TO WRITE NEW CAPTION<<<<< Stratum corneum thickness was modeled at 16 µm and viable epidermal thickness at 65 µm, for a total epidermal thickness of 81 µm. Human epidermal thickness varies greatly depending on body region, age, sex, and other factors (Lintzeri et al. 2022).
-- The figure can be copied and modified using BioRender.com [here](https://app.biorender.com/illustrations/6480d1f6178cc2e8db860842). >>>>>UPDATE LINK<<<<<<
+Figure 4: Skin penetration depth of UV between 200 and 300 nm, based on a Monte Carlo ray tracing simulation using absorption & scattering coefficients derived from measurements in ex vivo human skin. The lines indicate depths where only 50%, 10%, and 1% of light intensity persists, considering absorption and scattering. The modeled epidermal thickness is 81 µm (stratum corneum: 16 µm; viable epidermis: 65 µm). Dermal-epidermal junction undulations are depicted for clarity but not included in the simulation. Data is from (Busch et al. 2023). Note: epidermal thickness varies with body region, age, sex, and other factors (Lintzeri et al. 2022).
+- The figure can be copied and modified using BioRender.com [here](https://app.biorender.com/illustrations/649d49179a284fcf5b4a2e27).
 
 ![Combined eye figure](./figures%20edited%20in%20biorender%20or%20inkscape/combined_eye_figure_created_with_biorender.png)
 
