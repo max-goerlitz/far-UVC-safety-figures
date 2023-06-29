@@ -40,14 +40,14 @@ skin_t_plot <- ggplot(long_data, aes(x = wavel, y = depth, linetype = intensity)
   scale_linetype_manual(values = c("depth_50" = "dotdash", "depth_10" = "solid"),
                         labels = c("50% Relative Intensity", "10% Relative Intensity"),
                         breaks = c("depth_50", "depth_10")) +
-  labs(x = "Wavelength [nm]", 
+  labs(x = "Wavelength [nm]",
        y = "Depth [µm]") +
   theme_classic() +
   theme(axis.title.x = element_text(size = 10, margin = margin(t = 10)), # Increase X axis label font size and add space
-        axis.title.y = element_text(size = 10, margin = margin(r = 15)), 
+        axis.title.y = element_text(size = 10, margin = margin(r = 15)),
         axis.text = element_text(size = 10),
         axis.ticks.length = unit(0.15, "cm"),
-        legend.position = c(0.2, 0.15), 
+        legend.position = c(0.2, 0.15),
         legend.title = element_blank(),
         legend.background = element_rect(colour = "white"),
         legend.box.background = element_rect(colour = "black", size = 1),
