@@ -10,7 +10,7 @@ colnames(skin_t) <- c("wavel", "depth", "relative_intensity", "relative_intensit
 skin_t_plot <- ggplot(skin_t, aes(x = wavel, y = depth, z = relative_intensity)) +
   geom_contour(breaks = c(1, 10, 50), color = "black") +
   scale_x_continuous(limits = c(200, 300), breaks = seq(200, 300, by = 20), expand = c(0, 1)) +
-  scale_y_reverse(limits = c(101, 0), breaks = seq(0,100, by = 10), expand = c(0, 0)) +
+  scale_y_reverse(limits = c(101, -5), breaks = seq(0,100, by = 10), expand = c(0, 0)) +
   geom_hline(yintercept = c(16, 81), linetype = "dotted", color = "grey99", alpha = 0.3) + # Add dotted horizontal lines (for the sake of accurately creating the figure in biorender)
   annotate("label", x = 210, y = 5, label = "50%", fill="white", color="black") +
   annotate("label", x = 210, y = 20, label = "10%", fill="white", color="black") +
