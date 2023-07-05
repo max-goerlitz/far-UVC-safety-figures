@@ -1,27 +1,29 @@
 library(readxl)
 library(tidyverse)
 
-# load data frames
-solar <- read_xls("/Users/max.goerlitz/Documents/R Code/far-UVC-safety-figures/data/e490_00a_amo.xls")
-sealevel <- read_xls("/Users/max.goerlitz/Documents/R Code/far-UVC-safety-figures/data/astmg173.xls", sheet = "SMARTS2")
+# Load solar radiation data from .xls files
+solar <- read_xls("../data/e490_00a_amo.xls")
+sealevel <- read_xls("../data/astmg173.xls", sheet = "SMARTS2")
 
 solar <- solar %>% mutate(Type = "Extraterrestrial", Wavelength = `Wavelength, nm`, Irradiance = `Wehrli, W/m2/nm`) %>%
   select(Type, Wavelength, Irradiance)
 sealevel <- sealevel %>% mutate(Type = "Sea Level", Wavelength = `Wvlgth nm`, Irradiance = `Global tilt  W*m-2*nm-1`) %>%
   select(Type, Wavelength, Irradiance)
 
-# Conversion to mW/cm^2/nm
+# Convert Irradiance from W/m^2/nm to mW/cm^2/nm by multiplying with 0.1
 solar_converted <- solar %>% mutate(Irradiance_mW = Irradiance * 0.1)
 sealevel_converted <- sealevel %>% mutate(Irradiance_mW = Irradiance * 0.1)
 
 # Combine the converted datasets
 combined_converted <- rbind(solar_converted, sealevel_converted)
 
-# Display the combined dataset
+# Print the combined dataset to the console
 print(combined_converted)
 
+# Define the max value for the y-axis
 ymax <- max(combined_converted$Irradiance_mW, na.rm = TRUE)
 
+# Plot the data with ggplot
 cplot <- ggplot(data = combined_converted, aes(x = Wavelength, y = Irradiance_mW, group = Type, color = Type)) +
   geom_line() +
   scale_x_continuous(breaks = seq(200, 700, by = 100), limits = c(200, 710), expand = c(0,0)) +
@@ -38,10 +40,13 @@ cplot <- ggplot(data = combined_converted, aes(x = Wavelength, y = Irradiance_mW
   theme(axis.text = element_text(size = 10), # Increase tick label font size
         axis.title.x = element_text(size = 10, margin = margin(t = 10)), # Increase X axis label font size and add space
         axis.title.y = element_text(size = 10, margin = margin(r = 15)),  # Increase Y axis label font size and add space
-        legend.position = "none" # Hide the legend
+        legend.position = c(0.65, 0.3), # Adjust the x and y values for the desired position
+        legend.justification = c(0, 0),
+        legend.background = element_rect(fill = "transparent", color = "transparent"),
+        legend.box.background = element_rect(fill = "transparent", color = "transparent")
   )
 
 cplot
 
-ggsave(filename = "/Users/max.goerlitz/Documents/R Code/far-UVC-safety-figures/figure image files/combined_solarplot.svg", plot = cplot, unit = "mm", width = 150, height = 100, dpi = 600) # this plot was combined with the figure of the electromagnetic spectrum using Inkscape
+ggsave(filename = "../figure image files/combined_solarplot.svg", plot = cplot, unit = "mm", width = 150, height = 100, dpi = 600) # this plot was combined with the figure of the electromagnetic spectrum using Inkscape
 # FYI there appears to be a bug that causes the text for "UV-C", "UV-C", "UV-A", and "Visible" to appear thousands of times in the svg file. Unfortunately, I have been unable to fix this.
