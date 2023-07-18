@@ -7,7 +7,7 @@ str(pa) # check column names
 
 plot <- ggplot(pa, aes(x = Wavelength, y = Mean.Absorption.Coefficient)) +
   geom_line() +
-  geom_ribbon(aes(ymin = Mean.Absorption.Coefficient - Absorption.Coefficient.Std.Dev, ymax = Mean.Absorption.Coefficient + Absorption.Coefficient.Std.Dev), alpha=0.2) +
+  geom_ribbon(aes(ymin = Mean.Absorption.Coefficient - Absorption.Coefficient.Std.Dev, ymax = Mean.Absorption.Coefficient + Absorption.Coefficient.Std.Dev), alpha=0.4) +
   scale_x_continuous(breaks = seq(from = 200, to = 320, by = 20)) +
   scale_y_continuous(expand = c(0,0)) +
   labs(x = "Wavelength [nm]",

@@ -11,7 +11,7 @@ str(pa) # check column names
 
 pa_plot <- ggplot(pa, aes(x = Wavelength, y = Mean.Absorption.Coefficient)) +
   geom_line() +
-  geom_ribbon(aes(ymin = Mean.Absorption.Coefficient - Absorption.Coefficient.Std.Dev, ymax = Mean.Absorption.Coefficient + Absorption.Coefficient.Std.Dev), alpha=0.2) +
+  geom_ribbon(aes(ymin = Mean.Absorption.Coefficient - Absorption.Coefficient.Std.Dev, ymax = Mean.Absorption.Coefficient + Absorption.Coefficient.Std.Dev), alpha=0.4) +
   geom_text(aes(x = 190, y = 35, label = "a"), size = 5, family = "Arial", color = "black") +
   scale_x_continuous(limits = c(190, 320), breaks = seq(from = 200, to = 320, by = 20)) +
   scale_y_continuous(expand = c(0,0)) +
@@ -38,7 +38,7 @@ da_plot <- ggplot(da) +
   scale_y_continuous(expand = c(0,0), labels = number_format(accuracy = 0.00001, big.mark = ",")) +
   labs(x = "Wavelength [nm]",
        y = "Absorption coefficient [ml/mg x cm]") +
-  scale_color_manual(values = c("Adenine" = "black", "Cytosine" = "#0072B2", "Guanine" = "#F0E442", "Thymine" = "#D55E00"),
+  scale_color_manual(values = c("Adenine" = "black", "Cytosine" = "#0072B2", "Guanine" = "#009E73", "Thymine" = "#D55E00"),
                      name = "",
                      labels = c("Adenine", "Cytosine", "Guanine", "Thymine")) +
   scale_linetype_manual(values = c("Adenine" = "solid", "Cytosine" = "dotted", "Guanine" = "dashed", "Thymine" = "dotdash"),
