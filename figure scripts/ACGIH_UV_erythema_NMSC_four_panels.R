@@ -103,4 +103,4 @@ linear_plot <- ggplot(nmsc, aes(x = wavel, y = nmsc)) +
 plot_grid(acgih_plot, erythema_plot, log_plot, linear_plot, ncol = 2, align = 'v')
 
 
-ggsave("../figure image files/ACGIH_erythema_nmsc_four_panels.pdf", plot_grid(acgih_plot, erythema_plot, log_plot, linear_plot, ncol = 2, align = 'v'), width = 200, height = 140, unit = "mm", dpi = 600)
+ggsave("../figure image files/ACGIH_erythema_nmsc_four_panels.png", plot_grid(acgih_plot, erythema_plot, log_plot, linear_plot, ncol = 2, align = 'v'), width = 200, height = 140, unit = "mm", dpi = 600)

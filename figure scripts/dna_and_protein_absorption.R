@@ -58,4 +58,4 @@ da_plot <- ggplot(da) +
 plot_grid(pa_plot, da_plot, ncol = 1, align = 'v')
 
 
-ggsave("../figure image files/protein_and_dna_absorption.pdf", plot_grid(pa_plot, da_plot, ncol = 1, align = 'v'), width = 130, height = 150, unit = "mm", dpi = 600)
+ggsave("../figure image files/protein_and_dna_absorption.png", plot_grid(pa_plot, da_plot, ncol = 1, align = 'v'), width = 130, height = 150, unit = "mm", dpi = 600)
