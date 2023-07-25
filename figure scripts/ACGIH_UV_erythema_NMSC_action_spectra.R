@@ -66,4 +66,4 @@ combined_plot <- ggplot() +
 
 combined_plot
 
-ggsave("../figure image files/acgih_erythema_nmsc_one_panel.png", combined_plot, width = 120, height = 75, unit = "mm", dpi = 600)
+ggsave("../figure image files/acgih_erythema_nmsc_one_panel.pdf", combined_plot, width = 120, height = 75, unit = "mm", dpi = 600)

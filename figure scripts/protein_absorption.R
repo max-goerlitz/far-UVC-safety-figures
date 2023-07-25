@@ -20,4 +20,4 @@ plot <- ggplot(pa, aes(x = Wavelength, y = Mean.Absorption.Coefficient)) +
 
 plot
 
-ggsave("../figure image files/protein_absorption.png", plot, unit = "mm", width = 100, height = 75, dpi = 600)
+ggsave("../figure image files/protein_absorption.pdf", plot, unit = "mm", width = 100, height = 75, dpi = 600)
