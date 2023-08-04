@@ -7,7 +7,7 @@ We warmly welcome any feedback or questions. If you identify any mistakes or imp
 
 
 # A guide to this repository:
-- "![data](./far-UVC-safety-figures/tree/main/figure%20scripts)" contains all the necessary data files (.xls or .csv or .dat) to create the plots
+- "[data](/far-UVC-safety-figures/tree/main/figure%20scripts)" contains all the necessary data files (.xls or .csv or .dat) to create the plots
 - "figure scripts" contains the R code to create the plots
 - "figure image files" contains the plotted .png or .svg files
 - "figures edited in biorender or inkscape" contains image files that were Created with BioRender.com or were edited using Inkscape
