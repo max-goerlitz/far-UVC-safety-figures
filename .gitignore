@@ -3,8 +3,8 @@
 .RData
 .Ruserdata
 .DS_Store
-./renv/.gitignore
-./figure%20image%20files/.DS_Store
-./figures%20edited%20in%20biorender%20or%20inkscape/.DS_Store
-./renv/library
-./renv/staging
+/renv/.gitignore
+/figure%20image%20files/.DS_Store
+/figures%20edited%20in%20biorender%20or%20inkscape/.DS_Store
+/renv/library
+/renv/staging
