@@ -3,11 +3,11 @@ Welcome to the repository for our publication "Assessing the Safety of New Germi
 
 In line with the principles of open science and open data, we are committed to transparency about our research process. By sharing our code and data, we aim to make our research more accessible, reproducible, and verifiable. We also acknowledge that errors can occur, and public scrutiny can help improve our work.
 
-We warmly welcome any feedback or questions. If you identify any mistakes or improvements in our code or data, please do not hesitate to contact us (hello [at] maxgoerlitz [dot] com). 
+We warmly welcome any feedback or questions. If you identify any mistakes or improvements in our code or data, please do not hesitate to contact us via email (hello [at] maxgoerlitz [dot] com). 
 
 
 # A guide to this repository:
-- "data" contains all the necessary data files (.xls or .csv or .dat) to create the plots
+- "![data](./far-UVC-safety-figures/tree/main/figure%20scripts)" contains all the necessary data files (.xls or .csv or .dat) to create the plots
 - "figure scripts" contains the R code to create the plots
 - "figure image files" contains the plotted .png or .svg files
 - "figures edited in biorender or inkscape" contains image files that were Created with BioRender.com or were edited using Inkscape
