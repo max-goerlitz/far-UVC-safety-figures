@@ -3,6 +3,5 @@
 .RData
 .Ruserdata
 .DS_Store
-renv/.gitignore
 renv/library
 renv/staging
